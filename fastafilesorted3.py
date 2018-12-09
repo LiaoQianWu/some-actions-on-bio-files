@@ -1,6 +1,6 @@
 #Type a file name we are gonna input on filename.fasta
 #Type a file name we are gonna output on newfilename
-#Type another file name to get the last sorted file
+#Type another file name on newfilename2 to get the last sorted file
 
 with open("filename.fasta", "r") as f:
     with open("newfilename", "w") as fh:
