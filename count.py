@@ -20,6 +20,7 @@ with open("filename", "r") as f:
             count_T = seq[i].count("T")
             count_C = seq[i].count("C")
             count_G = seq[i].count("G")
+            count_N = seq[i].count("N")
             print ("%s: %s bp" % (name[i], len(seq[i])), file = fh)
-            print ("A -> %d\nT -> %d\nC -> %d\nG -> %d" %\
-                   (count_A, count_T, count_C, count_G), file = fh)
+            print ("A -> %d\nT -> %d\nC -> %d\nG -> %d\nambiguous -> %d" %\
+                   (count_A, count_T, count_C, count_G, count_N), file = fh)
