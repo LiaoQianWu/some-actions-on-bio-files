@@ -15,7 +15,7 @@ with open("c100027", "r") as f:
         n = 0
         aim = []        
         for i in seq:
-            if len(i) < 500:
+            if len(i) > 500:
                 aim.append(n)
             n += 1
             
